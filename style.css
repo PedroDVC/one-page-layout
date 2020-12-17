@@ -73,7 +73,7 @@ li {
 }
 
 .box3 {
-	height: 100vh;
+	height: 50vh;
 	width: 100%;
 	background-image: url(/img/bg-3.jpg);
 	background-size: cover;
@@ -101,7 +101,7 @@ li {
 
 .about-us-container > div {
 	margin: 0px 15px;
-	background-color: antiquewhite;
+	background-color: rgb(243, 243, 243);
 }
 
 .two-column-container {
@@ -112,7 +112,7 @@ li {
 
 .two-column-container > div {
 	margin: 0px 15px;
-	background-color: antiquewhite;
+	background-color: rgb(243, 243, 243);
 }
 
 .blog-container {
@@ -123,7 +123,18 @@ li {
 
 .blog-container > div {
 	margin: 0px 15px;
-	background-color: antiquewhite;
+	background-color: rgb(243, 243, 243);
+}
+
+.big-column-container {
+	display: flex;
+	margin: 50px 225px;
+	background-color: rgb(243, 243, 243);
+}
+
+.big-column-container img {
+	width: 100%;
+  height: auto;
 }
 
 
