@@ -13,13 +13,22 @@ body {
 	position: fixed;
 	width: 100%;
 	padding: 15px;
-	background-color: darkslategrey;
+	background-color: darkslategrey; ;
 }
 
 .homepage-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: antiquewhite;
 }
 
 li {
@@ -78,7 +87,19 @@ li {
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: white;
+	box-shadow: 1px solid lightgray;
 }
+
+.box3 h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
 
 .box1 h1 {
 	color: antiquewhite;
@@ -94,19 +115,31 @@ li {
 
 .about-container {
 	display: flex;
-	justify-content:center;
+	justify-content: center;
 	margin: 50px 220px;
 }
 
-.about-container > div {
+.about-container div {
 	margin: 0px 15px;
 	background-color: rgb(243, 243, 243);
 }
 
+.about-container h3 {
+	padding: 20px 20px 0px 20px;
+}
+
+.about-container p {
+	padding: 20px;
+	font-size: 15px;
+}
+
 .two-column-container {
 	display: flex;
-	justify-content:center;
+	justify-content: center;
 	margin: 50px 220px;
+	text-align: left;
+	font-weight: 300;
+	color: rgb(50, 50, 50);
 }
 
 .two-column-container > div {
@@ -114,9 +147,20 @@ li {
 	background-color: rgb(243, 243, 243);
 }
 
+.two-column-container h2 {
+	display: flex;
+	justify-content: center;
+	padding: 20px 20px 20px 20px;
+}
+
+.two-column-container p {
+	padding: 15px 20px 15px 20px;
+	font-size: 15px;
+}
+
 .blog-container {
 	display: flex;
-	justify-content:center;
+	justify-content: center;
 	margin: 50px 220px;
 }
 
@@ -133,21 +177,23 @@ li {
 
 .big-column-container img {
 	width: 100%;
-  height: auto;
+	height: auto;
 }
 
 .about {
 	text-align: left;
 	font-weight: 300;
-	color:rgb(50, 50, 50);
+	color: rgb(50, 50, 50);
 }
 
 button {
+	display: flex;
 	padding: 10px 30px;
 	font-size: large;
 	border-radius: 5px;
 	border: 2px solid lightgray;
 	background-color: white;
+
 }
 
 .green-button {
@@ -164,7 +210,15 @@ button {
 
 .red-button {
 	color: white;
-	background-color: #91171F;
+	background-color: #91171f;
 	border: 0px;
 }
 
+input {
+	display: flex;
+	flex-direction: column;
+}
+
+.textarea {
+	float: inline-end;
+}
